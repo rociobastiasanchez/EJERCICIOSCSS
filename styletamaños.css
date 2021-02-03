@@ -1,0 +1,44 @@
+body{
+background-color: rgb(207, 204, 204);
+}
+
+ul{
+padding: 0px;
+}
+
+li{
+list-style: none;
+background-color: rgb(151, 240, 93);
+cursor: pointer;
+}
+
+.cajaencabezado{
+
+}
+
+.cajamedia{
+background-color: rgb(253, 251, 113);
+}
+
+.cajafinal{
+background-color: rgba(128, 128, 128, 0.712);
+}
+
+
+@media all and (min-width: 768px){
+.cajamitad{
+    display: flex;
+    flex-direction: row;
+
+}
+
+}
+
+@media all and (min-width: 1280px){
+    .cajaprincipal{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+ 
