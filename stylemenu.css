@@ -1,0 +1,13 @@
+.enlaces{
+cursor: pointer;
+width: 100px;
+padding: 20px;
+margin: 10px;
+background-color: rgb(135, 187, 222);
+display: block;
+}
+a:hover{color: red;}
+a:visited{color:green;}
+.container div{
+padding: 20px;
+}

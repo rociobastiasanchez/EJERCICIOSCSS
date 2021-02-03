@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+#mainbox{
+    background-color: black;
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    flex-direction:inherit;
+    align-items: center;
+    margin: 0;
+}
+
+.caja1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+color: white;
+cursor: pointer;
+
+}
+.caja2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+.caja3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+.caja4{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+color: white;
+cursor: pointer;
+}
+.caja1:hover{color: rgb(201, 201, 245);}
+.caja2:hover{color: rgb(250, 230, 52);}
+.caja3:hover{color: rgb(218, 252, 196);}
+.caja4:hover{color: rgb(243, 160, 164);}
+
+.imagen{
+    background-image: url(./Taj\ Mahal.jpg);
+    height: 800vh;
+    width: 800vw;
+    background-repeat: no-repeat;
+}
