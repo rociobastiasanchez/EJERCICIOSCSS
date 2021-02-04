@@ -1,5 +1,7 @@
 body{
 background-color: rgb(207, 204, 204);
+max-width: 1200px;
+margin: 0 auto;
 }
 
 ul{
@@ -12,33 +14,51 @@ background-color: rgb(151, 240, 93);
 cursor: pointer;
 }
 
-.cajaencabezado{
-
-}
-
 .cajamedia{
 background-color: rgb(253, 251, 113);
+padding: 0;
 }
 
 .cajafinal{
 background-color: rgba(128, 128, 128, 0.712);
 }
 
+@media all and (max-width: 320px){
+    .cajaimagen{
+        display: none;
+    }
+}
 
 @media all and (min-width: 768px){
-.cajamitad{
+.cajaprincipal{
     display: flex;
     flex-direction: row;
-
+}
+.enlaces{
+    width: 400px;
+    height: 400px;
+}
+.cajasecundaria{
+    margin: 20px;
+}
+.texto{
+    display: flex;
 }
 
 }
 
 @media all and (min-width: 1280px){
-    .cajaprincipal{
+    .cajasecundaria{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .cajamedia{
+        margin: 20px;
+    }
+    .cajafinal{
+        margin: 20px;
+        height: fit-content;
     }
 }
  
